@@ -23,3 +23,4 @@ if __name__ == '__main__':
     assert is_palindrome_permutation('lloooop')
     assert is_palindrome_permutation('acca')
     assert is_palindrome_permutation('aacc')
+    assert is_palindrome_permutation('')
