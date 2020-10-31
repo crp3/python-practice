@@ -23,7 +23,7 @@ class Node:
             self.right.print_tree()
         print(self.value, end=' ')
 
-def create_default_tree():
+def create_default_bst():
     tree = Node(5)
     tree.insert(3)
     tree.insert(2)

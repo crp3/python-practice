@@ -1,4 +1,4 @@
-from tree_node import create_default_tree
+from tree_node import create_default_bst
 
 def least_common_ancestor(root, value_one, value_two):
     path_one = path(root, value_one)
@@ -33,7 +33,7 @@ def path(root, value):
     return path
 
 if __name__ == '__main__':
-    tree = create_default_tree()
+    tree = create_default_bst()
     assert least_common_ancestor(tree, 0, 5) == 5
     assert least_common_ancestor(tree, 0, 4) == 3
     assert least_common_ancestor(tree, 8, 6) == 7
