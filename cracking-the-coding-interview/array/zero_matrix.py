@@ -1,5 +1,4 @@
 def zero_matrix(matrix):
-
     zero_initial_column = False
     zero_initial_row = False
     for i in range(len(matrix)):
