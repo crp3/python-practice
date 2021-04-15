@@ -49,5 +49,14 @@ if __name__ == '__main__':
     zero_matrix(matrix)
     for row in matrix:
         print(row)
+    
+    expected_result = [
+        [0,0,0,0,0],
+        [5,4,0,0,1],
+        [0,0,0,0,0],
+        [4,3,0,0,5],
+        [3,2,0,0,4]
+    ]
 
+    assert matrix == expected_result
     
