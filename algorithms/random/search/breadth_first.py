@@ -6,11 +6,11 @@ def bfs(graph, start, target):
 
   while queue != []:
     current = queue.pop(0)
-    if current == target:
-      return True
 
     visited.add(current)
     for item in graph[current]:
+      if item == target:
+        return True
       if item not in visited:
         queue.append(item)
     
