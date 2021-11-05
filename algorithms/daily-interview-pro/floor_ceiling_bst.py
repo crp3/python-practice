@@ -1,4 +1,4 @@
-from binary_search_tree import *
+from data_structures.binary_search_tree import *
 
 def floor_ceiling_bst(root, target):
   current = root

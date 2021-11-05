@@ -1,4 +1,4 @@
-from linkedlist import *
+from data_structures.linked_list import *
 
 def reverse(head):
   current = head

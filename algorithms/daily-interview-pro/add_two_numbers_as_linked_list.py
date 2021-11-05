@@ -1,4 +1,4 @@
-from linkedlist import *
+from data_structures.linked_list import *
 
 def add_two_numbers(l1, l2):
   c1, c2 = l1, l2
